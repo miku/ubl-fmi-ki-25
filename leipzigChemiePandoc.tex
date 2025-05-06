@@ -10,8 +10,9 @@
 \usepackage{fontspec}
 \usepackage{xcolor}
 \usepackage{tikz}
+\usetikzlibrary{calc,positioning,shapes,backgrounds}
 
-% Define Leipzig theme colors explicitly
+% Define Leipzig theme colors explicitly - BEFORE theme is loaded
 \definecolor{DarkOrange}{RGB}{255, 152, 0}
 \definecolor{granat}{RGB}{176, 47, 44}
 \definecolor{karneol}{RGB}{214, 66, 66}
@@ -46,21 +47,20 @@ $endfor$
 
 \begin{document}
 
-% Call the title page with explicit frame
-{
+% Call the title page - using direct coordinates to avoid pandoc template issues
+\begingroup
 \setbeamertemplate{background}{
-    \begin{tikzpicture}[remember picture, overlay,shift=(current page.north west)]
-        \begin{scope}[x={(current page.north east)},y={(current page.south west)}]
-        \draw[aquamarin,fill=aquamarin, thin] (0.65,1) -- (1,1) -- (1,0.65) -- cycle;
-        \draw[karneol, fill=karneol, thin] (0.895,1) -- (1,1) -- (1,0.65) -- (0.925,0.725) -- cycle;
-        \draw[granat, fill=granat,thin] (1,0.65) -- (0.925,0.725) -- (1,0) -- cycle;
-        \end{scope}
-    \end{tikzpicture}}
+    \begin{tikzpicture}[remember picture, overlay]
+        \draw[aquamarin,fill=aquamarin, thin] (0.65\paperwidth,0) -- (\paperwidth,0) -- (\paperwidth,0.35\paperheight) -- cycle;
+        \draw[karneol, fill=karneol, thin] (0.895\paperwidth,0) -- (\paperwidth,0) -- (\paperwidth,0.35\paperheight) -- (0.925\paperwidth,0.275\paperheight) -- cycle;
+        \draw[granat, fill=granat,thin] (\paperwidth,0.35\paperheight) -- (0.925\paperwidth,0.275\paperheight) -- (\paperwidth,\paperheight) -- cycle;
+    \end{tikzpicture}
+}
 \setbeamertemplate{headline}{}
 \begin{frame}
   \titlepage
 \end{frame}
-}
+\endgroup
 
 % Generate table of contents if specified
 $if(toc)$

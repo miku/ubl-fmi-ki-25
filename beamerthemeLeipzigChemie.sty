@@ -34,16 +34,16 @@
     \titleHeaderLayout
     \begingroup
     \raggedright
+    \begin{beamercolorbox}{title}
+        \usebeamerfont{title}\inserttitle\par%
+    \end{beamercolorbox}%
+    \vskip0.5em\par
     \begin{beamercolorbox}[center]{subtitle}
         \ifx\insertsubtitle\@empty%
         \else%
             \vskip.25em%
-            {\Large \insertsubtitle\par}%
+            {\small \insertsubtitle\par}%
         \fi%
-    \end{beamercolorbox}%
-    \vskip1em\par
-    \begin{beamercolorbox}{title}
-        \usebeamerfont{title}\inserttitle\par%
     \end{beamercolorbox}%
     \vskip1em\par
     \begin{beamercolorbox}{date}
@@ -62,6 +62,7 @@
 
 \newcommand{\GroupLogo}[1]{\addtobeamertemplate{title page}{
     \begin{tikzpicture}[remember picture, overlay]
+
         \node[anchor=south west] (image) at (0.6\textwidth,-3.5){\includegraphics[height=0.2\textheight]{#1}};
     \end{tikzpicture}
 }}
@@ -144,6 +145,7 @@
 \newcommand{\maketitlepage}{{
 \setbeamertemplate{background}{
     \begin{tikzpicture}[remember picture, overlay,shift=(current page.north west)]
+
         \begin{scope}[x={(current page.north east)},y={(current page.south west)}]
         \draw[aquamarin,fill=aquamarin, thin] (0.65,1) -- (1,1) -- (1,0.65) -- cycle;
         \draw[karneol, fill=karneol, thin] (0.895,1) -- (1,1) -- (1,0.65) -- (0.925,0.725) -- cycle;
