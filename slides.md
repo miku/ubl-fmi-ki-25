@@ -14,10 +14,10 @@ date: 2025-05-20
 
 > Martin Czygan, SWE, DE
 
-* AG Index, BDD, UBL
-* Archivierung von wissenschaftlicher Kommunikation
-* Digitale Aufbewahrung, LZA
-* Autor (Python, ML)
+* AG Index, BDD, [UBL](https://ub.uni-leipzig.de)
+* [Archivierung von wissenschaftlicher Kommunikation](https://scholar.archive.org)
+* [Digitale Aufbewahrung](https://webservices.archive.org/pages/vault/), LZA
+* [Autor](https://scholar.google.de/citations?user=7gueY4EAAAAJ&hl=de) (Python, ML), [Open Source](https:/github.com/miku), [...](https://golangleipzig.space)
 
 # Intro
 
@@ -30,6 +30,10 @@ date: 2025-05-20
 * Generative KI ist experimentell und im Vergleich zu klassischer Software
   weniger steuerbar (probabilistisch); Für alles was exakte Daten und
 Transaktionen benötigt, ist es zunächst nicht geeignet.
+
+> The more it [the AI model] reasons, the more unpredictable it becomes. --
+> Ilya Sutskever, [NeurIPS
+> 2024](https://youtu.be/1yvBqasHLZs?si=g5LmpHX7lPbjtH8U&t=869)
 
 # AI, ML, DL, GPT, ...
 
@@ -44,6 +48,10 @@ Einsatz von [GENAI in Unternehmen](https://www.bitkom.org/sites/main/files/2024-
 * **Text**: Content, Übersetzung, Marketing, Support, Berichtswesen, Texterstellung und Zusammenfassung, FAQ, Forschung, Literaturrecherche
 * **Bild**: Prototypen für Webseiten, Bildbearbeitung, Spieleentwicklung, Retail, AR, 3D-Druck, Geodaten
 * **Audio**: Sprachausgabe, Musik, Hörbuch, Sounddesign, Transkription, Podcast, Sprachkurse
+
+# Persönliche Perspektive
+
+* AI Kurs 2011: [http://www.ai-class.com/](http://web.archive.org/web/20110901100247/http://www.ai-class.com/), Software, [Veröffentlichungen](), Talks
 
 
 # Projekte
