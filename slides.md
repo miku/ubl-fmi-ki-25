@@ -58,7 +58,7 @@ Einsatz von [GENAI in Unternehmen](https://www.bitkom.org/sites/main/files/2024-
 # OCR
 
 * Optical Character Recognition
-* Anfänge des Maschinellen Lernens: [MNIST](https://en.wikipedia.org/wiki/MNIST_database)
+* Anfänge des Maschinellen Lernens: [MNIST](https://en.wikipedia.org/wiki/MNIST_database) (1988)
 
 ![](static/mnist-80.png)
 
