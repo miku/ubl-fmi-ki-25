@@ -41,7 +41,7 @@ Random publication: [Generating Text with RNN](https://icml.cc/2011/papers/524_i
 
 ![](static/REL-1.png){height=200px width=280px}
 
-Difference AI/ML: [ai.stackexchange.com/q/35/28](https://ai.stackexchange.com/q/35/28)
+Difference AI/ML: [ai.stackexchange.com/q/35/28](https://ai.stackexchange.com/q/35/28); [7 levels](https://castle.princeton.edu/the-7-levels-of-ai/)
 
 # Was andere sagen
 
