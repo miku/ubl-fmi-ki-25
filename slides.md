@@ -27,13 +27,15 @@ date: 2025-05-20
 
 # Hinweis
 
-* Generative KI ist experimentell und im Vergleich zu klassischer Software
-  weniger steuerbar (probabilistisch); Für alles was exakte Daten und
+Generative KI ist experimentell und im Vergleich zu klassischer Software
+weniger steuerbar (probabilistisch); Für alles was exakte Daten und
 Transaktionen benötigt, ist es zunächst nicht geeignet.
 
 > The more it [the AI model] reasons, the more unpredictable it becomes. --
-> Ilya Sutskever, [NeurIPS
+> [Ilya Sutskever](https://en.wikipedia.org/wiki/Ilya_Sutskever), [NeurIPS
 > 2024](https://youtu.be/1yvBqasHLZs?si=g5LmpHX7lPbjtH8U&t=869)
+
+Random publication: [Generating Text with RNN](https://icml.cc/2011/papers/524_icmlpaper.pdf), 2011, [Experiments](https://icml.cc/2011/papers/524_icmlpaper.pdf#page=7)
 
 # AI, ML, DL, GPT, ...
 
