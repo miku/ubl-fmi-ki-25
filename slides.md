@@ -70,6 +70,10 @@ Einsatz von [GENAI in Unternehmen](https://www.bitkom.org/sites/main/files/2024-
 
 # OCR
 
+![](static/RUN-OCR-10.jpg)
+
+# OCR
+
 Klassisches Maschinelles Lernens: [MNIST](https://en.wikipedia.org/wiki/MNIST_database) (1988)
 
 [![](static/mnist-50.png)](https://en.wikipedia.org/wiki/MNIST_database)
