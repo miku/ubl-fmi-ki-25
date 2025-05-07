@@ -55,9 +55,10 @@ Einsatz von [GENAI in Unternehmen](https://www.bitkom.org/sites/main/files/2024-
 * Code (deepseek, mistral)
 * MCP (model-context-protocol)
 
-# OCR
+# OCR (docling)
 
-* Optical Character Recognition
+* Optical Character Recognition (OCR)
+* Handwritten Text Recognition (HTR)
 * Anfänge des Maschinellen Lernens: [MNIST](https://en.wikipedia.org/wiki/MNIST_database) (1988)
 
 ![](static/mnist-80.png)
@@ -68,4 +69,6 @@ Einsatz von [GENAI in Unternehmen](https://www.bitkom.org/sites/main/files/2024-
 
 # Model-Context-Protocol
 
-# ...
+# Probleme
+
+* Literaturrecherche
