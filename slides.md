@@ -68,15 +68,32 @@ Einsatz von [GENAI in Unternehmen](https://www.bitkom.org/sites/main/files/2024-
 * Code (deepseek, mistral)
 * MCP (model-context-protocol)
 
+# OCR
+
+Klassisches Maschinelles Lernens: [MNIST](https://en.wikipedia.org/wiki/MNIST_database) (1988)
+
+[![](static/mnist-50.png)](https://en.wikipedia.org/wiki/MNIST_database)
+
+<!-- If at any point Machine Learning seems confusing [...] it’s really just curve
+fitting. -- [J. Kaplan, Notes on Contemporary Machine Learning for Physicists,
+2019](https://sites.krieger.jhu.edu/jared-kaplan/files/2019/04/ContemporaryMLforPhysicists.pdf) -->
+
+
 # OCR (docling)
 
-* Optical Character Recognition (OCR)
-* Handwritten Text Recognition (HTR)
-* Anfänge des Maschinellen Lernens: [MNIST](https://en.wikipedia.org/wiki/MNIST_database) (1988)
+* Optical Character Recognition (OCR), Handwritten Text Recognition (HTR)
+* Diverse quelloffene Software, z.B. [Docling](https://arxiv.org/pdf/2408.09869)
 
-![](static/mnist-80.png)
+> This technical report introduces Docling, an easy to use, self-contained, MIT-
+licensed open-source package for PDF document conversion. It is powered by
+state-of-the-art specialized AI models for layout analysis (DocLayNet) and table
+structure recognition (TableFormer), and runs efficiently on commodity hardware
+in a small resource budget
+
 
 # Docling
+
+
 
 # Bildverstehen
 
