@@ -51,12 +51,17 @@ Einsatz von [GENAI in Unternehmen](https://www.bitkom.org/sites/main/files/2024-
 
 # Persönliche Perspektive
 
-* AI Kurs 2011: [http://www.ai-class.com/](http://web.archive.org/web/20110901100247/http://www.ai-class.com/), Software, [Veröffentlichungen](), Talks
-
+* AI Kurs 2011:
+  [www.ai-class.com](http://web.archive.org/web/20110901100247/http://www.ai-class.com/),
+[Software](https://github.com/miku),
+[Veröffentlichungen](https://scholar.google.de/citations?user=7gueY4EAAAAJ&hl=de),
+[Talks](https://github.com/miku/workshops)
+* AI hierarchy of needs, e.g.
+  [DAAIS_FACTSHEET.PDF](https://media.defense.gov/2023/Nov/02/2003333301/-1/-1/1/DAAIS_FACTSHEET.PDF#page=2)
 
 # Projekte
 
-* OCR (docling)
+* OCR (docling), HTR
 * RAG (support)
 * Recommendation (embeddings)
 * Bildverstehen und Suche (CLIP)
@@ -70,6 +75,8 @@ Einsatz von [GENAI in Unternehmen](https://www.bitkom.org/sites/main/files/2024-
 * Anfänge des Maschinellen Lernens: [MNIST](https://en.wikipedia.org/wiki/MNIST_database) (1988)
 
 ![](static/mnist-80.png)
+
+# Docling
 
 # Bildverstehen
 
